@@ -20,6 +20,10 @@ header {
 nav {
     background-color: black;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
 }
 
 header h1 {
@@ -59,4 +63,57 @@ a {
 a:hover {
     background-color: #393535;
     color: cadetblue;
+}
+
+.link-btn button {
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    font: 13px;
+    font-weight: 60;    
+}
+
+.link-btn button:hover {
+    background-color: black;
+    border: 4px solid white;
+    color: white;
+}
+
+.main {
+    font-family: Rubik, serif;
+}
+
+form {
+    width: 40%;
+    padding: 1rem;
+    margin: auto;
+}
+
+form fieldset {
+    border: 1px solid rgb(6, 6, 110);
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+form fieldset legend {
+    margin-left: 1rem;
+}
+
+form button {
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: bisque;
+     
+}
+
+form button:hover {
+    background-color: black;
+    border: 4px solid white;
+    color: white;
+    display: flex;
+   
 }
