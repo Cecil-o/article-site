@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: bisque;
+}
+
+.container {
+    width: 100%;
+    font-family: Rubik, serif;
+}
+
+header {
+    border-bottom: 2px solid #f0efef;
+}
+
+nav {
+    background-color: black;
+    height: 50px;
+}
+
+header h1 {
+    font-weight: 400;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.articleContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.articleContainer div {
+    width: 25%;
+    margin: 20px;
+    
+}
+
+.articleContainer h4 {
+    margin: 20px 0 10px 0;
+}
+
+a {
+    text-decoration: none;
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: #393535;
+    padding: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+a:hover {
+    background-color: #393535;
+    color: cadetblue;
+}
